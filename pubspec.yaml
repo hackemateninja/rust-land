@@ -1,0 +1,39 @@
+name: rust_land
+description: Rust land Mobile version
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http:
+  fluttie: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Pricedown
+      fonts:
+      - asset: assets/fonts/Pricedown/pricedown-bl.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Josefin
+      fonts:
+      - asset: assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+    - family: IBM
+      fonts:
+      - asset: assets/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf
